@@ -1,0 +1,43 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(
+    circle,
+    #d8dee7,
+    #9da7ab,
+    #6a7272,
+    #3d413f,
+    #141513
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.background {
+  background: url("https://www.freecodecamp.org/news/content/images/2019/07/this-is-javascript.jpeg")
+    no-repeat center;
+  position: absolute;
+  width: calc(100vw + 60px);
+  height: calc(100vw + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-family: "Press Start 2P", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 350px) {
+  .loading-text {
+    font-size: 40px;
+  }
+}

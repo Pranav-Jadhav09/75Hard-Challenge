@@ -1,0 +1,49 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: #000;
+  color: #fff;
+
+  font-family: "Roboto Mono", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+
+  /* Gradient */
+  background: #1fa2ff;
+  background: -webkit-linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+  background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+/* Media Query */
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}

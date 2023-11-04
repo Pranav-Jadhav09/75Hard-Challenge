@@ -1,0 +1,94 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  background-color: greenyellow;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container a {
+  text-decoration: none;
+  color: red;
+}
+
+/* Form */
+.form-grp {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 100%;
+  color: #000;
+}
+.form-grp input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 100%;
+  padding: 15px 3px;
+  font-size: 18px;
+}
+.form-grp input:focus,
+.form-grp input:valid {
+  outline: 0;
+}
+
+.form-grp label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-grp label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.form-grp input:focus + label span,
+.form-grp input:valid + label span {
+  transform: translateY(-30px);
+}
+
+/* Btn */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  color: greenyellow;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Link */
+.text {
+  margin: 30px;
+}

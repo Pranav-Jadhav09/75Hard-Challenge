@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 700px;
+}
+
+/* Heading */
+h3 {
+  margin: 0;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.joke {
+  font-size: 30px;
+  margin: 50px auto;
+}
+.hub {
+  color: #fff;
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Btn */
+.btn {
+  background-color: #000;
+  color: orange;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:focus {
+  outline: 0;
+}

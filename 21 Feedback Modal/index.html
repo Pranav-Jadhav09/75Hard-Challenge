@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- === CDN === -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Feedback UI Design</title>
+  </head>
+  <body>
+    <main id="panel" class="container">
+      <strong>
+        How satisfied are you with our <br />
+        customer support performance&quest;
+      </strong>
+
+      <div class="ratings-container">
+        <div class="rating active">
+          <img
+            src="https://img.icons8.com/external-neu-royyan-wijaya/64/000000/external-emoji-neumojis-smiley-neu-royyan-wijaya-30.png"
+            alt="satisfied-face"
+          />
+          <small>Satisfied</small>
+        </div>
+
+        <div class="rating">
+          <img
+            src="https://img.icons8.com/external-neu-royyan-wijaya/64/000000/external-emoji-neumojis-smiley-neu-royyan-wijaya-3.png"
+            alt="neutral-face"
+          />
+          <small>Neutral</small>
+        </div>
+
+        <div class="rating">
+          <img
+            src="https://img.icons8.com/external-neu-royyan-wijaya/64/000000/external-emoji-neumojis-smiley-neu-royyan-wijaya-17.png"
+            alt="unhappy-face"
+          />
+          <small>Unhappy</small>
+        </div>
+      </div>
+
+      <button class="btn" id="send">Send Review</button>
+    </main>
+
+    <!-- === Script === -->
+    <script src="./script.js"></script>
+  </body>
+</html>

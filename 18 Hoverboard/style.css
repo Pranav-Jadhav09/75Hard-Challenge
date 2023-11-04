@@ -1,0 +1,57 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Using min-height for better handling of content */
+  overflow: hidden;
+}
+
+/* Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+/* Square */
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  transition: background-color 2s ease, box-shadow 2s ease; /* Combine transitions */
+}
+
+.square:hover {
+  transition: none; /* Disable the transition on hover */
+}
+
+/* Media query for screens below 350px */
+@media (max-width: 350px) {
+  body {
+    justify-content: flex-start; /* Align squares to the top on small screens */
+  }
+
+  .container {
+    max-width: 100%; /* Utilize full width on small screens */
+    padding: 10px; /* Add some padding for spacing */
+  }
+
+  .square {
+    width: 8px; /* Make squares smaller for better fit on small screens */
+    height: 8px;
+    margin: 1px; /* Adjust margin for smaller squares */
+  }
+}

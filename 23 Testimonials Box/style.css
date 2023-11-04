@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* Container */
+.container {
+  background-color: #476ce4;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  max-width: 768px;
+  position: relative;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+/* Quotes Mark */
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  font-size: 28px;
+  top: 70px;
+}
+.fa-quote-right {
+  right: 40px;
+}
+.fa-quote-left {
+  left: 40px;
+}
+
+/* Testimonial */
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+/* User Info */
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user .user-image {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.user .user-details {
+  margin-left: 10px;
+}
+.user .username {
+  margin: 0;
+}
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 30px;
+  }
+  .fa-quote {
+    display: none;
+  }
+}
