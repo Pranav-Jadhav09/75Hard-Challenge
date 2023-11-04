@@ -50,7 +50,7 @@ These are the Projects completed during the challenge
 | 24  | [Pokedex](https://github.com/Pranav-Jadhav09/75hard-Challenge)                 | [Live Demo](https://pokedex-poke-mon-app.onrender.com)               |
 | 25  | [Magic Boxes](https://github.com/Pranav-Jadhav09/75hard-Challenge)             | [Live Demo](https://magic-3d-background.onrender.com/)               |
 | 26  | [Drag-N-Drop](https://github.com/Pranav-Jadhav09/75hard-Challenge)             | [Live Demo](https://drag-and-drop-site.onrender.com)                 |
-| 27  | [Toast Notification](https://github.com/Pranav-Jadhav09/75hard-Challenge)      | [Live Demo](https://drag-and-drop-site.onrender.com)                 |
+| 27  | [Toast Notification](https://github.com/Pranav-Jadhav09/75hard-Challenge)      | [Live Demo](https://toast-notification-site.onrender.com/)                 |
 
 <br />
 
